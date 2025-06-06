@@ -25,11 +25,11 @@ div.listItem__650eb:has(div.discoveryIcon_ef3116) {
     -webkit-line-clamp: unset !important;
 }
 
-/* Hides Store and Shop button */
-[href="/store"], 
-[href='/shop']
-{
-  display: none;
+/* hide "Library", "Nitro" and "Shop" buttons from DMs*/
+[data-list-item-id="private-channels-uid_964___library"],
+[data-list-item-id="private-channels-uid_964___nitro"],
+[data-list-item-id="private-channels-uid_964___shop"] {
+  display: none !important;
 }
 
 /* move pinged servers to top */
