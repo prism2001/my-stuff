@@ -175,11 +175,6 @@ div.listItem__650eb:has(div.discoveryIcon_ef3116) {
   border-radius: 0px 0px 8px 8px;
 }
 
-/* Remove chat app button. */
-.channelAppLauncher_e6e74f {
-    display: none;
-}
-
 /* Remove chat gift button. */
 button[aria-label="Send a gift"] {
     display: none;
@@ -190,14 +185,8 @@ button[aria-label="Send a gift"] {
     padding: 1px;
 }
 
-
 /* Hides the Nitro button on the DM page */
 ul[role="list"] li[class^="channel"]:nth-child(3) {
-    display: none;
-}
-
-/* Hides the Shop button on the DM page */
-ul[role="list"] li[class^="channel"]:nth-child(4) {
     display: none;
 }
 
