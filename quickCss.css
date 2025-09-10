@@ -584,3 +584,39 @@ div[class*="subText"] > div > svg[class*="questsIcon"] {
     opacity: 1 !important;
     transform: scale(1) !important;
 }
+
+/* remove stupid fucking gradient gap that they just added */
+.chatGradient__36d07 {
+  display: none !important;
+}
+.chatGradientBase__36d07 {
+  display: none !important;
+}
+.visual-refresh .scrollerInner__36d07 {
+    padding-bottom: 0px;
+}
+
+/* smaller chat input box */
+.channelTextArea_f75fb0 {
+  border-radius: 12px !important;
+  border-width: 2px;
+  border-color: #ffffff0e;
+  top: -1px;
+}
+
+ .scrollableContainer__74017 {
+  background-color: #ffffff00 !important;
+  margin-top: -10px !important;
+  border-radius: 20px !important;
+  border-width: 2px;
+  overflow: hidden;
+ }
+
+.sansAttachButton__74017 {
+  top: 3px;
+}
+
+.inner__74017 {
+  top: 5px;
+  margin-right: 10px;
+}
