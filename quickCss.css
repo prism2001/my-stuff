@@ -622,6 +622,7 @@ div[class*="subText"] > div > svg[class*="questsIcon"] {
 }
 
 /* remove quests button from DMs list */
-a[data-list-item-id="private-channels-uid_35___quests"] {
+a[data-list-item-id*="quests"]:not([data-list-item-id*="request"]) {
   display: none !important;
 }
+
