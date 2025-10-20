@@ -103,6 +103,7 @@ div.listItem__650eb:has(div.discoveryIcon_ef3116) {
   z-index: 999;
   background: var(--bg-overlay-1, var(--background-secondary));
 }
+
 /* remove obnoxiously fucking large nitro tier tooltips */
 .tooltipWordmarkContainer_f240e3 {
        display: none;
@@ -185,7 +186,7 @@ button[aria-label="Send a gift"] {
     padding: 1px;
 }
 
-/* Hides the Nitro button on the DM page */
+/* Hides the Nitro button on the DM page - temp disabled
 ul[role="list"] li[class^="channel"]:nth-child(3) {
     display: none;
 }
@@ -620,5 +621,6 @@ div[class*="subText"] > div > svg[class*="questsIcon"] {
   top: 5px;
   margin-right: 10px;
 }
+
 
 
