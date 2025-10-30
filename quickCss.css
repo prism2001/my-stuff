@@ -406,13 +406,6 @@ div[class*="subText"] > div > svg[class*="questsIcon"] {
     margin-left: 72px;
 }
 
-.wrapper_ef3116{
-    position: absolute;
-    top: -35px;
-    height: calc(100vh - 11px);
-    /* padding-top: 10px; */
-}
-
 [class^="stack_dbd263 scroller_ef3116"]{
     padding-top: 29px !important;
 }
@@ -621,6 +614,7 @@ div[class*="subText"] > div > svg[class*="questsIcon"] {
   top: 5px;
   margin-right: 10px;
 }
+
 
 
 
